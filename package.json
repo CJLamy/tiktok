@@ -4,12 +4,17 @@
   "description": "Calendar Ticking and Tocking Away",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "tiktok"
+    "url": "CJLamy/tiktok"
   },
   "author": "Cedric",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "passport": "^0.3.2"
+  }
 }
